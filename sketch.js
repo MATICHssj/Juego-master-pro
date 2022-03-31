@@ -108,7 +108,7 @@ function preload(){
 }
 
 function setup(){
-  createCanvas(1400,500);
+  createCanvas (displayWidth,500);
 
  bg=createSprite(800,300,400,400); 
  bg.shapeColor="blue";
