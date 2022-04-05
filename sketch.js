@@ -8,7 +8,9 @@ var ball,ball1;
 //premio
 var tesoro,tesoro1;
 
-var sonido,fondo;
+var sonido;
+
+//var fondo;
 
 //Tiempos
 var gameState = 'SERVE';
@@ -107,7 +109,7 @@ function preload(){
   ball1=loadImage("Naruto.png");
   tesoro1=loadImage("sasuke.png");
   sonido=loadImage("WhatsApp Image 2022-04-05 at 3.29.25 PM.jpeg");
-  fondo=loadImage("NarutoPaisaje.png")
+  //fondo=loadImage("NarutoPaisaje.png")
 }
 
 function setup(){
