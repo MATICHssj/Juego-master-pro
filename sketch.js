@@ -113,7 +113,7 @@ function preload(){
 function setup(){
   createCanvas (displayWidth,500);
 
- bg=createSprite(800,300,400,400); 
+ bg=createSprite(800,300,200,400); 
  bg.addImage(fondo);
 
 //pelota
