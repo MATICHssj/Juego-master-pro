@@ -118,7 +118,7 @@ function setup(){
  bg=createSprite(800,300,400,400);
  //bg.addImage(fondo);
  //bg.scale=10;
- bg.shapeColor = ("blue");
+ bg.shapeColor = (blue);
 
 //pelota
 ball = createSprite(20+200*3,20+100,10,10);
