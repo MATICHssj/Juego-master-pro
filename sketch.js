@@ -114,7 +114,7 @@ function setup(){
   createCanvas (displayWidth,500);
 
  bg=createSprite(800,300,400,400); 
- bg.shapeColor="blue";
+ bg.addImage(fondo);
 
 //pelota
 ball = createSprite(20+200*3,20+100,10,10);
@@ -272,7 +272,7 @@ wall35.shapeColor = (0);
 
 function draw() {
 //fondo
-background (WhatsApp Image 2022-04-05 at 3.35.29 PM (1).jpeg);
+background (0);
   
 //funciones
 drawSprites();
