@@ -132,35 +132,35 @@ var gameState = 'SERVE';
 //Trampas
 ta = createSprite(675,125,10,10);
 ta.addImage(sonido);
-ta.scale=0.05;
+ta.scale=0.02
 
 ta2 = createSprite(725,200,10,10);
 ta2.addImage(sonido);
-ta2.scale=0.05;
+ta2.scale=0.01;
 
 ta3 = createSprite(625,250,10,10);
 ta3.addImage(sonido);
-ta3.scale=0.05;
+ta3.scale=0.01;
 
 ta4 = createSprite(750,325,10,10);
 ta4.addImage(sonido);
-ta4.scale=0.05;
+ta4.scale=0.01;
 
 ta5 = createSprite(825,375,10,10);
 ta5.addImage(sonido);
-ta5.scale=0.05;
+ta5.scale=0.01;
 
 ta6 = createSprite(275+200*3,200+100,10,10);
 ta6.addImage(sonido);
-ta6.scale=0.05;
+ta6.scale=0.01;
 
 ta7 = createSprite(925,225,10,10);
 ta7.addImage(sonido);
-ta7.scale=0.05;
+ta7.scale=0.01;
 
 ta8 = createSprite(975,425,10,10);
 ta8.addImage(sonido);
-ta8.scale=0.05;
+ta8.scale=0.01;
 
 
 //Paredes
