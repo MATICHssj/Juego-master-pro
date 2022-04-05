@@ -107,13 +107,13 @@ function preload(){
   ball1=loadImage("Naruto.png");
   tesoro1=loadImage("sasuke.png");
   sonido=loadImage("WhatsApp Image 2022-04-05 at 3.29.25 PM.jpeg");
-  fondo=loadImage("WhatsApp Image 2022-04-05 at 3.35.29 PM (1).jpeg")
+  fondo=loadImage("NarutoPaisaje.png")
 }
 
 function setup(){
   createCanvas (displayWidth,500);
 
- bg=createSprite(800,300,200,400); 
+ bg=createSprite(800,300,400,400); 
  bg.addImage(fondo);
 
 //pelota
