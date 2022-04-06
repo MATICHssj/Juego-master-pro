@@ -10,7 +10,7 @@ var tesoro,tesoro1;
 
 var sonido;
 
-//var fondo;
+var fondo;
 
 //Tiempos
 var gameState = 'SERVE';
@@ -109,16 +109,16 @@ function preload(){
   ball1=loadImage("Naruto.png");
   tesoro1=loadImage("sasuke.png");
   sonido=loadImage("WhatsApp Image 2022-04-05 at 3.29.25 PM.jpeg");
-  //fondo=loadImage("NarutoPaisaje.png")
+  fondo=loadImage("NarutoPaisaje.png")
 }
 
 function setup(){
   createCanvas (displayWidth,500);
 
  bg=createSprite(800,300,400,400);
- //bg.addImage(fondo);
- //bg.scale=10;
- bg.shapeColor = ("blue");
+ bg.addImage(fondo);
+ bg.scale=0.01;
+ //bg.shapeColor = ("blue");
 
 //pelota
 ball = createSprite(20+200*3,20+100,10,10);
@@ -136,11 +136,11 @@ var gameState = 'SERVE';
 //Trampas
 ta = createSprite(675,125,10,10);
 ta.addImage(sonido);
-ta.scale=0.2
+ta.scale=0.09;
 
 ta2 = createSprite(725,200,10,10);
 ta2.addImage(sonido);
-ta2.scale=0.2;
+ta2.scale=0.09;
 
 ta3 = createSprite(625,250,10,10);
 ta3.addImage(sonido);
